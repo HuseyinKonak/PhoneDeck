@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Tests and tooling
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Data exported from a phone (SMS, contacts, logs, recordings) is personal: never commit it
+*.csv
+*.vcf
+*.wav
+*.mp4
+*.log
+/exports/
+
+# Helper build output (the built jar lives in phonedeck/assets)
+tools/applister/build/
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local assistant settings
+.claude/
